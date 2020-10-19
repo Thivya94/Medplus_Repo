@@ -33,7 +33,7 @@ public class ListenerClass extends extentManager implements ITestListener {
 		try {
 			test.addScreenCaptureFromPath(pathString);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		}
 
